@@ -9,7 +9,7 @@ for(i=a;i<=b;i++)
 {
 if(i%2==0)
 {
-printf("%d the even number between two intervals are",i);
+printf("\n  the even number between two intervals are %d",i);
 }
 }
 }
