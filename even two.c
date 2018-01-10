@@ -11,9 +11,4 @@ if(i%2==0)
 {
 printf("%d the even number between two interval is");
 }
-else
-{
-printf("%d there is no even number between two interval");
-}
-}
 }
