@@ -3,8 +3,8 @@
 void main()
 {
 int i,a=1,b=9;
-printf("\n %d first interval",a);
-printf("\n %d second interval",b);
+printf("\n first interval %d",a);
+printf("\n  second interval %d",b);
 for(i=a;i<=b;i++)
 {
 if(i%2==0)
