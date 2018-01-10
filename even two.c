@@ -12,3 +12,4 @@ if(i%2==0)
 printf("%d the even number between two intervals are",i);
 }
 }
+}
