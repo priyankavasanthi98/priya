@@ -2,11 +2,10 @@
 #include<conio.h>
 void main()
 {
-int i,n;
+int i,t,n=4;
 for(i=1;i<n;i++)
 {
-i=i*n;
-i++;
-printf("\n%d",n);
+t=i*4;
+printf("\n %d",t);
 }
 }
