@@ -6,10 +6,10 @@ char ch;
 scanf("%d",&n);
 if((ch>=65&&ch<=90)||(ch>=97&&ch<=122))
 {
-printf("%d not a number",&n);
+printf("no");
 }
 else
 {
-printf("%d number",&n);
+printf("yes");
 }
 }
