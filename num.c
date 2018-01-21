@@ -3,8 +3,8 @@ void main()
 {
 int n;
 char ch;
-printf("%c",&n);
-if((ch>=65&&ch<=90)!!(ch>=97&&ch<=122))
+scanf("%d",&n);
+if((ch>=65&&ch<=90)||(ch>=97&&ch<=122))
 {
 printf("%d not a number",&n);
 }
