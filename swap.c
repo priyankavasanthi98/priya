@@ -1,12 +1,10 @@
 #include<stdio.h>
 void main()
 {
-int m,n;
-printf("\n %d enter the 1st no:",&a);
-printf("\n %d enter the 2nd no:",&b);
-m=m-n;
-n=m+n:
-m=n-m;
-printf("\n before swapping %d",&a,&b);
-printf("\n after swapping %d",&a,&b);
+int a=10,b=20;
+printf("values of a&b before swapping %d %d",a,b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("values of a&b after swapping %d %d",a,b);
 }
