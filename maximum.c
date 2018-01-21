@@ -9,13 +9,12 @@ if(a>b)
 {
 printf("%d",&a);
 }
-else if(b>a
+else if(b>c
 {
 printf("%d",&b);
 }
 else
 {
 printf("%d",&c);
-}
-}
-
+}  
+        }
