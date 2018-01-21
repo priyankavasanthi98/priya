@@ -1,7 +1,8 @@
 #include<stdio.h>
 void main()
 {
-int n,a=5;b=6,c=7;
+int n,a,b,c;
+  printf(" %d enter the number of elements",&n);
 printf("%d%d%d",&a,&b,&c);
 if(a>b)
 {
