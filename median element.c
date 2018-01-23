@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int i,j,temp,median,sum=0;
+int i,j,temp,median,n=3;
 int a[3]={3,2,1};
 for(i=0;i<5;i++)
 {
@@ -21,8 +21,7 @@ printf("%d \n",a[i]);
 }
 for(i=0;i<3;i++)
 {
-sum=sum+i;
-median=sum/2;
-printf("\n d",median);
+median=(n+1)/((n+1)/2);
+printf("\n %d",median);
 }
 }
