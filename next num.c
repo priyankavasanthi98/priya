@@ -8,3 +8,4 @@ for(i=0;i<=a;i++)
 n=a+1;
   printf("%d",n);
 }
+}
