@@ -4,8 +4,7 @@ void main()
 char str[200],ch;
 int count=0,i=0;
 printf("enter the string ");
-scanf("%d",str[200])
-printf("count the number of character:\n");
+scanf("%d",str[200]);
 scanf("%c",&ch);
 while(str [i]='\0')
 {
