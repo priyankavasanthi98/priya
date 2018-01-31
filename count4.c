@@ -3,7 +3,7 @@ void main()
 {
 int i,b=0;
 char a[10];
-scanf("%d",&a[i]);
+scanf("%s",&a[i]);
 while(a[i]!='\0')
 {
 if((a[i]>='a')&&(a[i]<='z'))
