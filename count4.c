@@ -1,16 +1,15 @@
 #include<stdio.h>
 void main()
 {
-int i,b=0;
-char a[10];
-scanf("%s",&a[i]);
-while(a[i]!='\0')
+char str[40];
+int counter,count=0;
+printf("enter the string:");
+gets(str);
+for(counter=0;str[counter]!=NULL;counter++)
 {
-if((a[i]>='a')&&(a[i]<='z'))
-{
-b+=1;
+if((str[counter]>='A' && str[counter]<='Z')||(str[counter]>='a' && str[counter]<='z'))
+count++;
 }
-i++;
+printf("%d",count);
 }
-printf("%d",b);
-}
+
