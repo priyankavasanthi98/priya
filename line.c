@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 void main()
 {
 char str[50];
@@ -11,6 +12,7 @@ if(str[i]=='.')
 {
 count++;
 }
+}
 printf("%d",count);
 }
-}
+
