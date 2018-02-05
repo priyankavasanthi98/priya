@@ -1,22 +1,21 @@
 #include<stdio.h>
 void main()
 {
-int n,a,b,c;
-scanf("%d",&n);
-scanf("%d%d%d",&a,&b,&c);
-if(a<b)
-{
-if(a<c)
-{
-printf("%d",a);
-}
-}
-else if(b<c)
-{
-printf("%d",b);
-}
-else
-{
-printf("%d",c);
-}
-}
+int i,j,t;
+  int a[3]={1,2,3};
+  for(i=0;i<3;i++)
+    
+  {
+    for(j=i+1;j<3;j++)
+    {
+      if(a[i]>a[j])
+      {
+        t=a[i];
+        a[i]=a[j];
+        a[j]=t;
+      }
+    }
+  }
+    printf("%d",a[0]);
+           
+           }
