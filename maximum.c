@@ -1,21 +1,19 @@
 #include<stdio.h>
 void main()
 {
-int n,a,b,c;
-  printf(" %d enter the number of elements",&n);
-printf("%d%d%d",&a,&b,&c);
-if(a>b)
-{
-  if(a>c)
-{
-printf("%d",&a);
-}
-else if(b>c
-{
-printf("%d",&b);
-}
-else
-{
-printf("%d",&c);
-}  
-        }
+int a[3],i,j,t;
+  for(i=0;i<3;i++)
+    
+  {
+    for(j=i+1;j<3;j++)
+    {
+      if(a[i]>a[j])
+      {
+        t=a[i];
+        a[i]=a[j];
+        a[j]=t;
+      }
+    }
+    printf(%d",a[i]);
+           }
+           }
