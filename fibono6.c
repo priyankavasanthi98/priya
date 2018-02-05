@@ -9,5 +9,5 @@ printf("%d",t1);
 nt=t1+t2;
 t1=t2;
 t2=nt;
-
+  }
 }
