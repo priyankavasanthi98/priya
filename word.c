@@ -2,7 +2,7 @@
 #include<string.h>
 void main()
 {
-char s[10];
+char str[10];
 int i=0,f=1;
 printf("enter the string:");
 gets(str);
