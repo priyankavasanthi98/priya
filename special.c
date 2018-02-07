@@ -2,25 +2,28 @@
 void main()
 {
 char str[20];
-int i,count=0;
+int i,count=0,b=0,a=0,d=0;
 printf("enter the string:");
 gets(str);
 for(i=0;str[i]!=NULL;i++)
 {
 if((str[i]>=0)&&(str[i]<=9))
-count++;
 {
-elseif((str[i]>='A'&&str[i]<='Z')||(str[i]>='a'&&str[i]<='z'))
-count++;
+d++;
+}
+else if((str[i]>='A'&&str[i]<='Z')||(str[i]>='a'&&str[i]<='z'))
 {
+a++;
+}
 elseif(str[i]=' ')
-count++;
 {
+b++;
+}
 else
+{
 count++;
 }
 }
-}
-}
+
 printf("%d",count);
 }
