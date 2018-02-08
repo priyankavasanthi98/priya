@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 void main()
 {
 char str[20];
@@ -15,7 +16,7 @@ else if((str[i]>='A'&&str[i]<='Z')||(str[i]>='a'&&str[i]<='z'))
 {
 a++;
 }
-elseif(str[i]=' ')
+else if(str[i]=' ')
 {
 b++;
 }
