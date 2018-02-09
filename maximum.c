@@ -1,8 +1,13 @@
 #include<stdio.h>
 void main()
 {
-int i,j,t;
-  int a[3]={1,2,3};
+int i,j,t,n;
+scanf("%d",&n);
+  int a[10];
+  for(i=0;i<n;i++)
+  {
+      scanf("%d",&a[i]);
+  }
   for(i=0;i<3;i++)
     
   {
@@ -16,6 +21,6 @@ int i,j,t;
       }
     }
   }
-    printf("%d",a[0]);
+    printf("%d",a[n-1]);
            
            }
