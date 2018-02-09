@@ -8,7 +8,7 @@ printf("enter the string:");
 gets(str);
 for(i=0;str[i]!=NULL;i++)
 {
-if((str[i]>=0)&&(str[i]<=9))
+if((str[i]>='0')&&(str[i]<='9'))
 {
 d++;
 }
@@ -16,7 +16,7 @@ else if((str[i]>='A'&&str[i]<='Z')||(str[i]>='a'&&str[i]<='z'))
 {
 a++;
 }
-else if(str[i]=' ')
+else if(str[i]==' ')
 {
 b++;
 }
@@ -25,6 +25,5 @@ else
 count++;
 }
 }
-
 printf("%d",count);
 }
