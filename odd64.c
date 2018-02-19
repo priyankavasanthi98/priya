@@ -2,8 +2,7 @@
 void main()
 {
 int a,b,i;
-scanf("%d",&a);
-scanf("%d",&b);
+scanf("%d %d",&a&b);
 i=a+b;
 if(i%2==0)
 {
