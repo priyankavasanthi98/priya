@@ -4,8 +4,10 @@ void main()
 {
 char s1,s2;
 int i,t=0;
-printf("enter the string:");
-gets(str);
+printf("enter the string1:");
+gets(s1);
+printf("enter the string2:");
+gets(s2);
 for(i=0;s1[i]!=NULL;i++)
 {
 if(s1[i]==s2[i])
