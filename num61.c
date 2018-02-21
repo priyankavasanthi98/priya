@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
 {
-char str[50];
+char a[50];
 int k,i;
-scanf("%s %d",&str,&k)
+scanf("%s %d",&a,&k)
 for(i=0;i<=k;i++)
 {
-printf("%d",str[1]);
+printf("%c",a[i]);
 }
 }
