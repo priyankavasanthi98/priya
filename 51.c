@@ -12,7 +12,7 @@ n=n/10;
 while(sum!=0)
 {
 b=sum%10;
-printf("%d\t",s);
+printf("%d\t",b);
 sum=sum/10;
 }
 }
