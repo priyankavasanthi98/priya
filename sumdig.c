@@ -9,5 +9,5 @@ a=n%10;
 sum=sum+a;
 n=n/10;
 }
-printf("%d",a);
+printf("%d",sum);
 }
