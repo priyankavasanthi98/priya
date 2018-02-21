@@ -6,7 +6,7 @@ char s1[20],s2[20];
 int i,t=0;
 printf("enter the string1:");
 gets(s1);
-printf("\n enter the string2:");
+printf("enter the string2:");
 gets(s2);
 for(i=0;s1[i]!=NULL;i++)
 {
