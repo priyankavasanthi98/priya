@@ -2,10 +2,12 @@
 #include<string.h>
 void main()
 {
-char str;
+char str[40];
+  int i;
 printf("enter the string:");
 gets(str);
-if(str==0&&str==1)
+for(i=0;str[i]!=NULL;i++)
+if(str[i]==0&&str[i]==1)
 {
 printf("yes");
 }
