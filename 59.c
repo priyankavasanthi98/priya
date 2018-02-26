@@ -5,7 +5,7 @@ int n=10,i,j,t;
 scanf("%d",&n);
 for(i=0;i<10;i++)
 {
-scanf("%d",&n);
+scanf("%d",&a[i]);
 }
 for(i=0;i<10;i++)
 {
