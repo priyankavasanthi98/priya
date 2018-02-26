@@ -10,6 +10,6 @@ printf("even");
 }
 else
 {
-printf("no");
+printf("odd");
 }
 }
