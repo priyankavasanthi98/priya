@@ -17,10 +17,10 @@ break;
 case 4:
 printf("four");
 break;
-case 4:
+case 5:
 printf("five");
 break;
-case 5:
+case 6:
 printf("six");
 break;
 case 7:
