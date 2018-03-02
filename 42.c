@@ -3,24 +3,21 @@
 void main()
 {
 s1[20],s2[20];
-int i;
+int i,j;
 printf("enter the first string:");
-gets(s1);
+scanf("%s",&s1);
 printf("enter the second string:");
-gets(s2);
-for(i=0;str[i]!='\0';i++)
+scanf("%s",&s2);
+if(s1[i]==s2[j])
 {
-if(s1[i]==s2[i])
-{
-printf("equal");
+printf("%s",s1);
 }
-else if(s1[i]>s2[i])
+else if(s1[i]>s2[j])
 {
 printf("%s",s1);
 }
 else
 {
 printf("%s",s2);
-}
 }
 }
