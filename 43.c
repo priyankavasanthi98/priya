@@ -14,7 +14,7 @@ i++;
 }
 while(s2[j]!=NULL)
 {
-s[i]=s[j];
+s1[i]=s2[j];
 i++;
 j++;
 }
