@@ -3,15 +3,17 @@
 void main()
 {
 char str[40];
-  int i,c=0;
-printf("enter the string:");
-gets(str);
+int i,c=0,k;
+scanf("%s",&str);
 for(i=0;str[i]!=NULL;i++)
-if(str[i]==0&&str[i]==1)
 {
-  c=c+1;
 }
-  if(c==1)
+  for(k=0;k<i;k++)
+  {
+    if(str[i]=='0'&&str[i]=='1')
+  c++;
+}
+  if(c!=0)
   {
 printf("yes");
 }
