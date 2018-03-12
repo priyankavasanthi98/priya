@@ -10,7 +10,7 @@ for(i=0;str[i]!=NULL;i++)
 }
   for(k=0;k<i;k++)
   {
-    if(str[k]=='0'&&str[k]=='1')
+    if(str[k]=='0'||str[k]=='1')
     c++;
   }
 if(c!=0)
