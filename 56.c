@@ -3,14 +3,20 @@
 void main()
 {
 char str[100];
-int i,n=0,a=0;
+int i,n=0,a=0,k,x=0;
 printf("enter the string:");
 scanf("%s",&str);
-if(str[i]>=0||str[i]<=9)
+k=strlen(str);
+for(i=0;i<k;i++)
+{
+if(str[i]>='a'&&str[i]<'z')
 n++;
-if((str[i]>=65&&str[i]<=90)||(str[i]>=97&&str[i]<=122))
+else if(str[i]>='A'&&str[i]<='Z')
 a++;
-if(n!=0&&a!=0)
+if(str[i]>='0'&&str[i]<='9')
+x++;
+}
+if(n!=0&&a!=0&&x!=0)
 {
 printf("yes");
 }
