@@ -10,11 +10,11 @@ for(i=0;str[i]!=NULL;i++)
 }
   for(k=0;k<i;k++)
   {
-    if(str[i]=='0'&&str[i]=='1')
-  c++;
-}
-  if(c!=0)
-  {
+    if(str[k]=='0'&&str[k]=='1')
+    c++;
+  }
+if(c!=0)
+{
 printf("yes");
 }
 else
