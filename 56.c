@@ -11,9 +11,9 @@ for(i=0;i<k;i++)
 {
 if(str[i]>='a'&&str[i]<'z')
 n++;
-else if(str[i]>='A'&&str[i]<='Z')
+else if(str[i]>='A'||str[i]<='Z')
 a++;
-if(str[i]>='0'&&str[i]<='9')
+if(str[i]>='0'||str[i]<='9')
 x++;
 }
 if(n!=0&&a!=0&&x!=0)
