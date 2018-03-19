@@ -8,11 +8,11 @@ for(i=1;i<=4;i++)
 scanf("%d %c %d",&a,&sym,&b);
 if(sym=='/')
 {
-printf("%d",a/b);
+printf("%d\n",a/b);
 }
 else
 {
-printf("%d",a%b);
+printf("%d\n",a%b);
 }
 }
 }
